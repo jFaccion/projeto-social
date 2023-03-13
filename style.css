@@ -27,28 +27,24 @@ section#telefone {
 
 iframe {
     position: absolute;
-    top: 91px;
-    left: 41px;
-    height: 470px;
-    width: 265px;
+    top: 93px;
+    left: 44px;
+    height: 469px;
+    width: 264px;
 }
 
 section#menu {
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    line-height: 50px;
+    text-align: right;
 }
 
-#menu > ul {
-    list-style-type: none;
-}
-
-img {
+#menu > a >img{
+    margin: 7px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
 }
 
-img:hover {
+#menu > a > img:hover {
+    transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.712);
+    transition: transform .3s;
 }
